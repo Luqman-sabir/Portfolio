@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="text-white flex justify-center body-font bg-slate-950">
+    <footer className="text-white flex justify-center  body-font bg-slate-950">
       <div className="container w-[90%] px-5 gap-8 mt-10 flex justify-between  max-[1050px]:flex-col">
         {/* About Section */}
         <motion.div
