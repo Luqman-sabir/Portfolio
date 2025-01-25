@@ -18,7 +18,7 @@ const Contact = () => {
 
         {/* Contact Form */}
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID" // Replace YOUR_FORM_ID with your Formspree ID
+          action="https://formspree.io/f/xkgoglvp" // Replace YOUR_FORM_ID with your Formspree ID
           method="POST"
           className="space-y-6"
         >
