@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from "../assets/images/ecom.png"
 import Paste from "../assets/images/paste.png"
+import Panaverse from "../assets/images/panaverse.png"
 
 
 // Example project data
@@ -20,13 +21,13 @@ const projects = [
     link: 'https://dine-mart-seven.vercel.app/',
     image:Image
   },
-  // {
-  //   id: 3,
-  //   title: 'Blog Platform',
-  //   description: 'A dynamic blog platform powered by React and Sanity.io.',
-  //   link: 'https://your-blog.com',
-  //   image: 'https://via.placeholder.com/300', 
-  // },
+  {
+    id: 3,
+    title: 'Panaverse Dao',
+    description: 'Presidential Initiative for Artificial Intelligence and Computing.io.',
+    link: 'https://panaverse-dao-gold.vercel.app/',
+    image: Panaverse, 
+  },
   // Add more projects as needed
 ];
 
