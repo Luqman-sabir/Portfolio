@@ -15,12 +15,11 @@ const About = () => {
         <hr />
         <h1 className="text-2xl mt-5 font-bold mb-3">Personal Information</h1>
         <div className=" flex items-center gap-5 justify-between max-[750px]:items-start max-[750px]:flex-col ">
-          <div className="flex flex-col gap-3 text-lg leading-relaxed font-semibold">
-            <span>Name : Luqman</span>
-            <span>Age : 20</span>
+          <div className="flex flex-col gap-5 text-lg leading-relaxed font-semibold">
+            <span>Name : Luqman Sabir</span>
             <span>Address : DHA Phase-7 Lahore Pakistan.</span>
             <span>Email : luqmansabir415@gmail.com</span>
-            <span>Contact : 03278868536</span>
+            <span>Contact No: 03278868536</span>
           </div>
 
           {/* Profile Photo */}

@@ -22,15 +22,15 @@ const projects = [
     link: 'https://panaverse-dao-gold.vercel.app/',
     image: Panaverse, 
   },
+  // {
+  //   id: 4,
+  //   title: 'Personal Project',
+  //   description: 'A personal portfolio built with React and Tailwind CSS.',
+  //   link: 'https://portfolio-luqmans-projects-c093d7c9.vercel.app/',
+  //   image: Img
+  // },
   {
     id: 3,
-    title: 'Personal Project',
-    description: 'A personal portfolio built with React and Tailwind CSS.',
-    link: 'https://portfolio-luqmans-projects-c093d7c9.vercel.app/',
-    image: Img
-  },
-  {
-    id: 4,
     title: 'Paste App',
     description: 'A personal portfolio built with React and Tailwind CSS.',
     link: 'https://paste-app-ten-theta.vercel.app/',
