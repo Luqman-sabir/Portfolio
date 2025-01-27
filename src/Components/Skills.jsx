@@ -6,36 +6,42 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandRedux } from "react-icons/tb";
 import { SiSanity } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const skills = [
   {
     name: "HTML",
-    color: "bg-orange-500",
+    color:  "bg-slate-700",
     description: "Proficient in creating semantic and accessible markup.",
   },
   {
     name: "CSS",
-    color: "bg-blue-500",
+    color: "bg-slate-700",
     description: "Experienced in crafting responsive and modern UI designs.",
   },
   {
     name: "JavaScript",
-    color: "bg-yellow-500",
+    color:  "bg-slate-700",
     description: "Skilled in dynamic and interactive web development.",
   },
   {
     name: "React",
-    color: "bg-cyan-500",
+    color:  "bg-slate-700",
     description: "Expertise in building scalable and interactive UIs.",
   },
   {
+    name: "Tailwind.CSS",
+    color: "bg-slate-700",
+    description: "Experienced in crafting responsive and modern UI designs.",
+  },
+  {
     name: "Redux",
-    color: "bg-purple-500",
+    color:  "bg-slate-700",
     description: "Proficient in managing application state efficiently.",
   },
   {
     name: "Sanity.io",
-    color: "bg-green-500",
+    color:  "bg-slate-700",
     description: "Skilled in creating headless CMS for modern web apps.",
   },
 ];
@@ -73,11 +79,11 @@ const Skills = () => {
               {skill.name === "CSS" && <FaCss3 />}
               {skill.name === "HTML" && <FaHtml5 />}
               {skill.name === "JavaScript" && <IoLogoJavascript />}
-              {skill.name === "Redux " && <TbBrandRedux />
-
+              {skill.name === "Redux" && <TbBrandRedux />}
+              {skill.name === "Tailwind.CSS" && <RiTailwindCssFill />
               }
 
-              {skill.name === "Sanity.io  " && <SiSanity className="" />}
+              {skill.name === "Sanity.io" && <SiSanity className="" />}
             </div>
             <h2 className="text-xl font-bold mb-2">{skill.name}</h2>
             <p className="text-sm md:text-base text-white">

@@ -81,7 +81,7 @@ const About = () => {
         </div>
         <hr className="mt-5" />
         {/* Skills Section */}
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <h2 className="text-2xl font-semibold mb-4">My Skills</h2>
             <div className="flex flex-wrap justify-center gap-4">
               <span className="px-4 py-2 bg-teal-500 text-white rounded-full shadow-md">HTML</span>
@@ -92,7 +92,7 @@ const About = () => {
               <span className="px-4 py-2 bg-teal-500 text-white rounded-full shadow-md">Git</span>
               <span className="px-4 py-2 bg-teal-500 text-white rounded-full shadow-md">Framer Motion</span>
             </div>
-          </div>
+          </div> */}
 
         {/* Call to Action */}
         {/* <motion.div

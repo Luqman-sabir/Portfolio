@@ -3,31 +3,48 @@ import { motion } from 'framer-motion';
 import Image from "../assets/images/ecom.png"
 import Paste from "../assets/images/paste.png"
 import Panaverse from "../assets/images/panaverse.png"
+import Img from "../assets/images/projectImg.png"
 
 
 // Example project data
 const projects = [
   {
     id: 1,
-    title: 'Paste App',
-    description: 'A personal portfolio built with React and Tailwind CSS.',
-    link: 'https://paste-app-ten-theta.vercel.app/',
-    image: Paste
-  },
-  {
-    id: 2,
     title: 'E-commerce App',
-    description: 'A modern e-commerce app with Redux Tool kit.',
+    description: 'A modern stylish e-commerce app with Redux Tool kit.',
     link: 'https://dine-mart-seven.vercel.app/',
     image:Image
   },
   {
-    id: 3,
+    id: 2,
     title: 'Panaverse Dao',
     description: 'Presidential Initiative for Artificial Intelligence and Computing.io.',
     link: 'https://panaverse-dao-gold.vercel.app/',
     image: Panaverse, 
   },
+  {
+    id: 3,
+    title: 'Personal Project',
+    description: 'A personal portfolio built with React and Tailwind CSS.',
+    link: 'https://portfolio-luqmans-projects-c093d7c9.vercel.app/',
+    image: Img
+  },
+  {
+    id: 4,
+    title: 'Paste App',
+    description: 'A personal portfolio built with React and Tailwind CSS.',
+    link: 'https://paste-app-ten-theta.vercel.app/',
+    image: Paste
+  },
+  
+ 
+  // {
+  //   id: 4,
+  //   title: 'Face-Book',
+  //   description: 'Presidential Initiative for Artificial Intelligence and Computing.io.',
+  //   link: 'https://facebook-login-page-kappa.vercel.app/',
+  //   image: Panaverse, 
+  // },
   // Add more projects as needed
 ];
 
@@ -69,7 +86,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block py-2 px-4 bg-teal-500 hover:bg-teal-600 text-white rounded-md transition"
+                  className="inline-block py-2 px-4 bg-[#3A9DCA]  text-white rounded-md transition"
                 >
                   View Project
                 </a>

@@ -24,7 +24,7 @@ const Home = () => {
           <br />
           <Typewriter
   options={{
-    strings: ["UI designer &",'Frontend Developer', ],
+    strings: ['Frontend Developer', ],
     autoStart: true,
     loop: true,
   }}
