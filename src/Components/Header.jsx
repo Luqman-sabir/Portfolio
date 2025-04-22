@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/images/Logo.png"
+import Logos from "../assets/images/Logos.png"
 import { Link, useNavigate } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
@@ -14,9 +14,11 @@ const Header = () => {
   return (
     <header className='flex justify-center bg-slate-900 sticky top-0 z-10'>
       <div className='w-[90%] flex items-center justify-between '>
-        <Link to="/">
-      <img src={logo} alt="" className='h-24 w-24'/>
+        <Link to="/" className='flex items-center  font-bold'>
+      <img src={Logos} alt="" className=' h-32 text-white '/>
+      <h1 className='text-[#B38948] text-xl'>Luqman Sabir</h1>
         </Link>
+        
 <nav className='flex gap-10 font-bold text-white text-xl max-[750px]:hidden'>
      <Link to="/">Home</Link>
      <Link to="/about">About Me</Link>
