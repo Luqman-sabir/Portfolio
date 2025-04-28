@@ -13,12 +13,11 @@ const Header = () => {
   const navigate = useNavigate()
   return (
     <header className='flex justify-center bg-slate-900 sticky top-0 z-10'>
-      <div className='w-[90%] flex items-center justify-between '>
+      <div className='w-[92%] flex items-center justify-between '>
         <Link to="/" className='flex items-center  font-bold'>
-      <img src={Logos} alt="" className=' h-32 text-white '/>
-      <h1 className='text-[#B38948] text-xl'>Luqman Sabir</h1>
-        </Link>
-        
+      <img src={Logos} alt="" className=' h-28 text-white '/>
+          </Link>
+          {/* git push -u origin main */}
 <nav className='flex gap-10 font-bold text-white text-xl max-[750px]:hidden'>
      <Link to="/">Home</Link>
      <Link to="/about">About Me</Link>

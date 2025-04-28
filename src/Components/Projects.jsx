@@ -4,19 +4,27 @@ import Image from "../assets/images/ecom.png"
 import Paste from "../assets/images/paste.png"
 import Panaverse from "../assets/images/panaverse.png"
 import Img from "../assets/images/projectImg.png"
+import Estore from "../assets/images/eStore.webp"
 
 
 // Example project data
 const projects = [
   {
     id: 1,
+    title: 'Ecommerce Store',
+    description: 'Dynamic ecommerce website featuring React.js, Sanity CMS, React-Redux.',
+    link: 'https://shop-online-luqmans-projects-c093d7c9.vercel.app/',
+    image:Estore
+  },
+  {
+    id: 2,
     title: 'E-commerce App',
     description: 'A modern stylish e-commerce app with Redux Tool kit.',
     link: 'https://dine-mart-seven.vercel.app/',
     image:Image
   },
   {
-    id: 2,
+    id: 3,
     title: 'Panaverse Dao',
     description: 'Presidential Initiative for Artificial Intelligence and Computing.io.',
     link: 'https://panaverse-dao-gold.vercel.app/',
@@ -29,13 +37,13 @@ const projects = [
   //   link: 'https://portfolio-luqmans-projects-c093d7c9.vercel.app/',
   //   image: Img
   // },
-  {
-    id: 3,
-    title: 'Paste App',
-    description: 'A personal portfolio built with React and Tailwind CSS.',
-    link: 'https://paste-app-ten-theta.vercel.app/',
-    image: Paste
-  },
+  // {
+  //   id: 4,
+  //   title: 'Paste App',
+  //   description: 'A personal portfolio built with React and Tailwind CSS.',
+  //   link: 'https://paste-app-ten-theta.vercel.app/',
+  //   image: Paste
+  // },
   
  
   // {
@@ -68,7 +76,7 @@ const Projects = () => {
           {projects.map((project) => (
             <motion.div
               key={project.id}
-              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col gap-6"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
@@ -82,6 +90,7 @@ const Projects = () => {
               <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{project.title}</h2>
                 <p className="text-gray-400 mb-4">{project.description}</p>
+
                 <a
                   href={project.link}
                   target="_blank"
